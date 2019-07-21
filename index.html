@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href='style.css' rel='stylesheet'>
+<title>Bibel24</title>
+</head>
+<body>
+<h1 id='title'>Bibel24</h1>
+<div id='welcome'>
+Willkommen auf Bibel24</div>
+<br>
+<div align='center'>
+Hier findest du Bibelübersetzungen zum <a href='read'>online lesen</a>, und zum <a href='download'>herunterladen</a>!
+<br>
+<br>
+<br>   
+<!-- Trigger/Open The Modal -->
+<button id="myBtn" class='buttongreen'>Klick mich!!!</button>
+<br>
+<br>
+<br>
+<a href='kontakt.html' class='buttonred'>Kontakt</a>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Danke an:</h2>
+    </div>
+    <div class="modal-body">
+	<p>
+	<a href="https://bibel.github.io/">Achim und Stanislav aka. Die Bibelsammler!</a></p>
+	<p>
+	Einige CSS-Samples von <a href="https://www.w3schools.com/">W3Schools</a></p>
+    </div>
+    <div class="modal-footer">
+      <h3> &copy; Benjamin Hartmann</h3>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
