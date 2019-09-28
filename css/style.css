@@ -132,3 +132,13 @@ border: none;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;} /* Black */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
